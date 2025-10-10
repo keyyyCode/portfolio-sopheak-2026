@@ -13,6 +13,7 @@ interface Project {
   description: string;
   fullDescription?: string;
   image: string;
+  media?: { type: "image" | "video"; src: string }[];
   tech: string[];
   category: string;
   github?: string;
@@ -57,7 +58,10 @@ export function ProjectCard({ project, index }: ProjectCardProps) {
         transition={{ delay: index * 0.1, duration: 0.5 }}
       >
         <Card className="overflow-hidden group hover:border-primary/50 transition-all duration-300">
-          <div className="relative aspect-video overflow-hidden bg-muted">
+          <div
+            className="relative aspect-video overflow-hidden bg-muted cursor-pointer"
+            onClick={() => setShowDetails(true)}
+          >
             <Image
               src={project.image || "/placeholder.svg"}
               alt={project.title}

@@ -6,32 +6,25 @@ import { CertificateCard } from "@/components/ui/certificate-card";
 
 const certificates = [
   {
-    title: "Flutter App Development",
-    date: "2024",
-    image: "/banking-mobile-app-interface.jpg",
+    title: "Basic Computer/Network & Installation",
+    date: "Sep 15, 2022",
+    image: "/certificate/ct1.JPG",
     description:
-      "Advanced mobile application development with Flutter framework, including state management and native integrations",
+      "Gained foundational knowledge in computer hardware, networking, and system installation, including troubleshooting and maintenance of computer systems.",
   },
   {
-    title: "Laravel Backend Development",
-    date: "2023",
-    image: "/banking-mobile-app-interface.jpg",
+    title: "Design Skills",
+    date: "Apr 25, 2023",
+    image: "/certificate/ct4.JPG",
     description:
-      "Professional backend development with Laravel, covering RESTful APIs, authentication, and database design",
+      "Developed practical expertise in graphic and digital design using Adobe Photoshop, Adobe Illustrator, CorelDRAW  and professional design workflows for creating high-quality digital content.",
   },
   {
-    title: "Frontend Web Development",
-    date: "2023",
-    image: "/banking-mobile-app-interface.jpg",
+    title: "Basic/Adavance C/C++/OPP ",
+    date: "Sep 15, 2022",
+    image: "/certificate/ct3.JPG",
     description:
-      "Modern frontend development with React, Next.js, and responsive design principles",
-  },
-  {
-    title: "UI/UX Design Skills",
-    date: "2022",
-    image: "/banking-mobile-app-interface.jpg",
-    description:
-      "Comprehensive design training in Figma, Adobe Creative Suite, and user-centered design methodologies",
+      "Completed a comprehensive program in programming with C and C++, focusing on object-oriented programming concepts, algorithms, and software development principles.",
   },
 ];
 
