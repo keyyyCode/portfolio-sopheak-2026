@@ -27,6 +27,10 @@ const achievements = [
       "/achievement/russia.jpg",
       "/achievement/russiamedal.jpg",
       "/achievement/wifa.jpg",
+      "/achievement/ociip.jpg",
+      "/achievement/wico.jpg",
+      "/achievement/canada.jpg",
+      "/achievement/canada1.jpg",
     ],
   },
 ];

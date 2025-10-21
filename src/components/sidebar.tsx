@@ -72,7 +72,7 @@ export function Sidebar() {
       >
         <div className="flex flex-col h-full p-6">
           <div className="mb-8 pt-12 lg:pt-6">
-            <h2 className="text-2xl font-bold text-primary">SS</h2>
+            <h2 className="text-2xl font-bold text-primary">Samart Sopheak</h2>
             <p className="text-sm text-muted-foreground">Portfolio</p>
           </div>
 

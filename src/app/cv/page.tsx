@@ -59,7 +59,7 @@ export default function CVPage() {
             </Button>
           </Link>
           <div className="flex gap-2">
-            <Button
+            {/* <Button
               onClick={handlePrint}
               size="sm"
               variant="outline"
@@ -67,7 +67,7 @@ export default function CVPage() {
             >
               <Printer className="h-4 w-4" />
               Print
-            </Button>
+            </Button> */}
             <Button onClick={handleDownload} size="sm" className="gap-2">
               <Download className="h-4 w-4" />
               Download PDF
@@ -221,7 +221,7 @@ export default function CVPage() {
                 </p>
                 <ul className="space-y-2">
                   {[
-                    "Developed front-end components using Next.js and Vue.js",
+                    "Developed front-end components using Next.js and Flutter",
                     "Designed UX/UI for web applications, improving usability and visual appeal",
                     "Collaborated with developers to improve user experience and performance",
                   ].map((item, index) => (
@@ -250,23 +250,23 @@ export default function CVPage() {
                   {
                     title: "Front-End",
                     skills: "Next.js, Vue.js, JavaScript, HTML5, CSS3, Flutter",
-                    level: 85,
+                    level: 80,
                   },
                   {
                     title: "Back-End",
                     skills: "Laravel (PHP), Firebase",
-                    level: 50,
+                    level: 60,
                   },
                   {
                     title: "UI/UX Design",
                     skills:
                       "Figma, Adobe Illustrator, Photoshop, CorelDRAW, Canva",
-                    level: 80,
+                    level: 85,
                   },
                   {
                     title: "Databases",
-                    skills: "MySQL, SQLite, MongoDB",
-                    level: 60,
+                    skills: "MySQL, MongoDB",
+                    level: 70,
                   },
                 ].map((skill, index) => (
                   <motion.div

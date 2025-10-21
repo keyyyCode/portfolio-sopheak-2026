@@ -36,13 +36,13 @@ export function HeroSection() {
         transition={{ duration: 0.8 }}
         className="text-center space-y-8"
       >
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ delay: 0.1, duration: 0.6 }}
           className="flex justify-center"
         >
-          <div className="relative w-30 h-40 md:w-70 md:h-70 rounded-full overflow-hidden border-4 border-primary shadow-2xl">
+          <div className="relative w-30 h-40 md:w-70 md:h-70 rounded-full overflow-hidden border-4 border-primary shadow-2xl ">
             <Image
               src="/mee.jpg"
               alt="Samart Sopheak"
@@ -51,8 +51,23 @@ export function HeroSection() {
               priority
             />
           </div>
+        </motion.div> */}
+        <motion.div
+          initial={{ opacity: 0, scale: 0.8 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ delay: 0.1, duration: 0.6 }}
+          className="flex justify-center"
+        >
+          <div className="relative w-40 h-40 md:w-60 md:h-60 rounded-full overflow-hidden border-4 border-primary shadow-[0_0_40px_rgba(0,0,0,0.4)]">
+            <Image
+              src="/mee.jpg"
+              alt="Samart Sopheak"
+              fill
+              className="object-cover object-center"
+              priority
+            />
+          </div>
         </motion.div>
-
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
