@@ -12,6 +12,7 @@ import { ContactSection } from "@/components/sections/contact-section";
 import { ReferenceSection } from "@/components/sections/reference-section";
 import { ThemeToggle } from "@/components/theme-toggle";
 import { Sidebar } from "@/components/sidebar";
+import { Newexp } from "@/components/sections/new-exp";
 
 export default function Home() {
   return (
@@ -31,6 +32,7 @@ export default function Home() {
           <CertificatesSection />
           <AchievementsSection />
           <ExperienceSection />
+          {/* <Newexp /> */}
           {/* <EducationSection /> */}
           {/* <ReferenceSection /> */}
           <ContactSection />

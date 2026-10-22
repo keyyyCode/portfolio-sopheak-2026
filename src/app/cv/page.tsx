@@ -239,7 +239,62 @@ export default function CVPage() {
                   ))}
                 </ul>
               </Card>
+                <Card className="p-6 hover:shadow-lg transition-shadow bg-primary/5 dark:bg-primary/10 mt-4">
+                <h3 className="font-semibold text-lg ">SystemRollout-Unilever</h3>
+                <p className="text-sm text-muted-foreground mb-2">
+                  May 15 - Dec 15, 2026
+                </p>
+                <ul className="space-y-2">
+                  {[
+                    "Supported the rollout and implementation of DDT and DCODE systems for Unilever, ensuring smooth adoption by field teams.",
+                    "Provided on-site and remote technical support, troubleshooting system issues, and assisting users with daily operations.",
+                    "Conducted system testing, trained users on new tools and processes, and documented issues and feedback to improve system performance.",
+                  ].map((item, index) => (
+                    <motion.li
+                      key={index}
+                      initial={{ opacity: 0, x: -10 }}
+                      whileInView={{ opacity: 1, x: 0 }}
+                      viewport={{ once: true }}
+                      transition={{ delay: index * 0.1 }}
+                      className="flex items-start gap-2 text-muted-foreground"
+                    >
+                      <span className="text-primary mt-1">•</span>
+                      {item}
+                    </motion.li>
+                  ))}
+                </ul>
+              </Card>
             </motion.section>
+             {/* <motion.section variants={itemVariants}>
+              <h2 className="text-2xl font-bold mb-4 text-primary border-b-2 border-primary pb-2 flex items-center gap-2">
+                Work Experience
+              </h2>
+              <Card className="p-6 hover:shadow-lg transition-shadow bg-primary/5 dark:bg-primary/10">
+                <h3 className="font-semibold text-lg ">SystemRollout-Unilever</h3>
+                <p className="text-sm text-muted-foreground mb-3">
+                  May 15 - Dec 15, 2026
+                </p>
+                <ul className="space-y-2">
+                  {[
+                    "Supported the rollout and implementation of DDT and DCODE systems for Unilever, ensuring smooth adoption by field teams.",
+                    "Provided on-site and remote technical support, troubleshooting system issues, and assisting users with daily operations.",
+                    "Conducted system testing, trained users on new tools and processes, and documented issues and feedback to improve system performance.",
+                  ].map((item, index) => (
+                    <motion.li
+                      key={index}
+                      initial={{ opacity: 0, x: -10 }}
+                      whileInView={{ opacity: 1, x: 0 }}
+                      viewport={{ once: true }}
+                      transition={{ delay: index * 0.1 }}
+                      className="flex items-start gap-2 text-muted-foreground"
+                    >
+                      <span className="text-primary mt-1">•</span>
+                      {item}
+                    </motion.li>
+                  ))}
+                </ul>
+              </Card>
+            </motion.section> */}
             {/* Technical Skills */}
             <motion.section variants={itemVariants}>
               <h2 className="text-2xl font-bold mb-4 text-primary border-b-2 border-primary pb-2 flex items-center gap-2">
