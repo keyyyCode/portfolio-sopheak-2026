@@ -22,7 +22,7 @@ export function ExperienceSection() {
             viewport={{ once: true }}
             transition={{ delay: 0.2, duration: 0.5 }}
           >
-            <Card className="p-6 hover:border-primary/50 transition-colors">
+            <Card className="p-6 hover:border-primary/50 transition-colors mb-4">
               <div className="flex items-start gap-4">
                 <div className="p-3 rounded-lg bg-primary/10 shrink-0">
                   <Briefcase className="h-6 w-6 text-primary" />
@@ -46,6 +46,33 @@ export function ExperienceSection() {
                     control, and agile methodologies. Participated in code
                     reviews and learned best practices for writing maintainable,
                     scalable code.
+                  </p>
+                </div>
+              </div>
+            </Card>
+            <Card className="p-6 hover:border-primary/50 transition-colors">
+              <div className="flex items-start gap-4">
+                <div className="p-3 rounded-lg bg-primary/10 shrink-0">
+                  <Briefcase className="h-6 w-6 text-primary" />
+                </div>
+                <div className="space-y-3 flex-1">
+                  <div>
+                    <h3 className="font-semibold text-xl">
+                      System Rollout (6 Months)
+                    </h3>
+                    <p className="text-primary font-medium">Unilever</p>
+                  </div>
+                  <div className="flex items-center gap-2 text-sm text-muted-foreground">
+                    <Calendar className="h-4 w-4" />
+                    <span>May 2026 – December 2026</span>
+                  </div>
+                  <p className="text-muted-foreground leading-relaxed">
+                    Working on the rollout and implementation of DDT and DCODE systems to support digital
+                    transformation and improve daily operational processes. Responsible for testing system functionality,
+                    supporting users during system adoption, providing first-level technical assistance,
+                    and coordinating with sales teams, drivers, pickers, and distribution teams to
+                    resolve issues. Also assist with user training, system documentation,
+                    and feedback collection to ensure smooth system implementation.
                   </p>
                 </div>
               </div>

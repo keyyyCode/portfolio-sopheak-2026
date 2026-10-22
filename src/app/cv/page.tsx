@@ -240,7 +240,7 @@ export default function CVPage() {
                 </ul>
               </Card>
                 <Card className="p-6 hover:shadow-lg transition-shadow bg-primary/5 dark:bg-primary/10 mt-4">
-                <h3 className="font-semibold text-lg ">SystemRollout-Unilever</h3>
+                <h3 className="font-semibold text-lg ">SystemRollout - Unilever (6 months)</h3>
                 <p className="text-sm text-muted-foreground mb-2">
                   May 15 - Dec 15, 2026
                 </p>
